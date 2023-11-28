@@ -160,8 +160,9 @@ a {
 .features-headtitle {
   /* margin: 0 auto; */
   text-align: center;
-  margin-bottom: 72px;
-  display: none;
+  /* margin-bottom: 72px; */
+  /* display: none; */
+  visibility: hidden;
 }
 .features-title {
   color: #2e2f42;
