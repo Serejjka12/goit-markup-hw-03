@@ -40,12 +40,12 @@ a {
 header {
   display: flex;
   justify-content: space-between;
-  border-bottom: 10px solid var(--CORNFLOWER, #e7e9fc);
-  background: var(--WHITE, #fff);
 }
 nav {
   display: flex;
   gap: 70px;
+  /* border-bottom: 10px solid var(--CORNFLOWER, #e7e9fc);
+  background: var(--WHITE, #fff); */
 }
 .header-contact_link {
   display: flex;
