@@ -40,7 +40,21 @@ a {
 }
 .container-header {
   display: flex;
+  justify-content: space-between;
 }
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+.header-contact_link {
+  display: flex;
+  gap: 40px;
+}
+.address-contact {
+  display: flex;
+  gap: 40px;
+}
+
 /* logo___ */
 .logo {
   color: #4d5ae5;
@@ -50,6 +64,7 @@ a {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .logo span {
   color: #2e2f42;
@@ -60,6 +75,7 @@ a {
   line-height: 1.5;
   letter-spacing: 0.32px;
   color: #2e2f42;
+  padding: 24px 0;
 }
 .header-list :hover {
   color: #404bbf;
