@@ -3,10 +3,32 @@ body {
   color: #434455;
   background-color: #fff;
 }
-/* cancel style________________________ */
+.container {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding-left: 5px;
+  padding-right: 5px;
+  /* margin-left: 5px;
+  margin-right: 5px; */
+}
+
+/* CANCEL STYLE________________________ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
 ul,
 ol {
   list-style-type: none;
+  padding-left: 0;
+}
+img {
+  display: block;
 }
 button {
   cursor: pointer;
