@@ -220,6 +220,18 @@ nav {
 }
 /* SECTION 4 ____________ */
 
+.portfolio ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+.portfolio ul li {
+  border: 1px solid var(--CORNFLOWER, #e7e9fc);
+  background: var(--WHITE, #fff);
+}
 .portfolio-headtitle {
   color: #2e2f42;
   text-align: center;
@@ -236,11 +248,14 @@ nav {
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.4px;
+  padding-top: 32px;
+  margin-bottom: 8px;
 }
 
 .portfolio-text {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+  padding-bottom: 32px;
 }
 /* FOOTER________________ */
 
