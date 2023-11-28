@@ -41,9 +41,6 @@ a {
 .container-header {
   display: flex;
   justify-content: space-between;
-  /* width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px; */
 }
 .header-nav {
   display: flex;
@@ -158,10 +155,7 @@ a {
   width: calc((100% - 72px) / 4);
 }
 .features-headtitle {
-  /* margin: 0 auto; */
   text-align: center;
-  /* margin-bottom: 72px; */
-  /* display: none; */
   visibility: hidden;
 }
 .features-title {
@@ -280,6 +274,7 @@ a {
 
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .logo-footer {
@@ -290,10 +285,8 @@ a {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  margin-top: 101.5px;
   display: block;
-  margin-bottom: 17.5px;
-  padding-top: 101.5px;
+  margin-bottom: 16px;
   padding-left: 27px;
 }
 
@@ -305,6 +298,5 @@ a {
   color: #f4f4fd;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
-  padding-bottom: 100px;
   padding-left: 27px;
 }
