@@ -4,12 +4,11 @@ body {
   background-color: #fff;
 }
 .container {
-  max-width: 1158px;
+  width: 1158px;
   margin: 0 auto;
   padding-left: 5px;
   padding-right: 5px;
-  /* margin-left: 5px;
-  margin-right: 5px; */
+  padding: 0 15px;
 }
 
 /* CANCEL STYLE________________________ */
@@ -37,15 +36,14 @@ a {
   text-decoration: none;
 }
 /* HEADER_____________________________ */
-header {
-  display: flex;
-  justify-content: space-between;
+.header {
+  border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
+  background: var(--WHITE, #fff);
 }
-nav {
+.header-nav {
   display: flex;
   gap: 70px;
-  /* border-bottom: 10px solid var(--CORNFLOWER, #e7e9fc);
-  background: var(--WHITE, #fff); */
+  align-items: center;
 }
 .header-contact_link {
   display: flex;
@@ -64,7 +62,6 @@ nav {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  align-self: center;
 }
 .logo span {
   color: #2e2f42;
