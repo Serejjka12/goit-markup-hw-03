@@ -144,21 +144,24 @@ a {
   background: #404bbf;
 }
 /* SECTION 2 ___________________________ */
-.features ul {
+.features {
+  padding: 120px 0;
+}
+.features-list {
   display: flex;
   gap: 24px;
-  padding-bottom: 120px;
 }
-.features ul li {
+.features-item {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  width: calc((100% - 72px) / 4);
 }
 .features-headtitle {
   /* margin: 0 auto; */
   text-align: center;
-  padding-top: 120px;
   margin-bottom: 72px;
+  display: none;
 }
 .features-title {
   color: #2e2f42;
@@ -166,6 +169,7 @@ a {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  margin-bottom: 8px;
 }
 .features-text {
   line-height: 1.5;
