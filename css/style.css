@@ -192,7 +192,7 @@ a {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .team-employee {
-  /* padding: 32px 0; */
+  padding: 32px 0;
 }
 
 .team-headtitle {
@@ -216,7 +216,7 @@ a {
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.4px;
-  padding-top: 32px;
+  /* padding-top: 32px; */
   margin-bottom: 8px;
 }
 
@@ -225,7 +225,7 @@ a {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
   font-size: 16px;
-  padding-bottom: 32px;
+  /* padding-bottom: 32px; */
 }
 /* SECTION 4 ____________ */
 
