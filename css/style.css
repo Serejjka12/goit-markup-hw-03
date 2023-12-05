@@ -216,7 +216,6 @@ a {
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.4px;
-  /* padding-top: 32px; */
   margin-bottom: 8px;
 }
 
@@ -225,23 +224,25 @@ a {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
   font-size: 16px;
-  /* padding-bottom: 32px; */
 }
 /* SECTION 4 ____________ */
-
-.portfolio ul {
+.portfolio {
+  padding: 120px 0 120px 0;
+}
+.portfolio-head_list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  /* justify-content: center; */
   gap: 24px;
-  margin-bottom: 120px;
+  row-gap: 48px;
 }
 
-.portfolio ul li {
+.portfolio-list {
   border: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: var(--WHITE, #fff);
   margin-bottom: 48px;
+  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-headtitle {
@@ -252,7 +253,6 @@ a {
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding-top: 120px;
   margin-bottom: 72px;
 }
 
